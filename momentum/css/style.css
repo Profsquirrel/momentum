@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body{
+  font-family:'Nanum Pen Script', cursive , sans-serif;
+}
+
+.hidden{
+  display:none;
+}
+
+#contentWrap{
+  margin:0 auto;
+  font-size:70px;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+  margin-top:50px;
+}
+
+#log-off{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#log-off>button{
+  font-family:'Nanum Pen Script', cursive , sans-serif;
+  font-size:25px;
+  margin-bottom:10px;
+  border:0;
+  background:none;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+  cursor:pointer;
+}
+
+#greeting{
+  height:50px;
+  font-size:1em;
+  color: #FFF;
+  font-weight:lighter;
+  text-shadow: 4px 3px 5px #000;
+}
+
+#todoWrap{
+  margin:0 auto;
+  font-size:0.5em;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#todo-form>input{
+  font-family:'Nanum Pen Script', cursive , sans-serif;
+  width:330px;
+  border:0;
+  border-bottom: 3px solid bisque;
+  outline:0;
+  text-align:center;
+  background: none;
+  font-size:25px;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+}
+
+#todo-form>input::placeholder{
+  font-family:'Nanum Pen Script', cursive , sans-serif;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+  text-align:center;
+  font-size:25px;
+}
+
+#todo-list{
+  text-align:center;
+  width:330px;
+}
+#todo-list li{
+  display:block;
+  list-style: none;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+  font-size:20px;
+}
+
+#todo-list span{
+  margin-top:5px;
+}
+
+#todo-list button{
+  border:none;
+  border-radius: 4px;
+  margin-left:5px;
+  padding:2px;
+  font-size:1px;
+}
+
+#quote{
+  position:absolute;
+  font-size:1.7em;
+  left:10px;
+  bottom:10px;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+}
+
+#login-form>input{
+  font-family:'Nanum Pen Script', cursive , sans-serif;
+  height:30px;
+  width:135px;
+  border:0;
+  border-bottom: 3px solid bisque;
+  outline:0;
+  text-decoration: dashed;
+  background: none;
+  font-size:23px;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+  margin-bottom:0;
+}
+  
+
+#login-form>input::placeholder{
+  font-family:'Nanum Pen Script', cursive , sans-serif;
+  color: #FFF;
+  text-shadow: 4px 3px 5px #000;
+  text-align:center;
+  font-size:1em;
+}
+
+#clock{
+  height:0px;
+  text-align:center;
+}
+
+span{
+  display:inline-block;
+}
